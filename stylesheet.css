@@ -86,6 +86,13 @@ svg {
     text-decoration: line-through;
 }
 
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'outfit';
+}
+
 @media (max-width: 512px) {
     .card {
         display: flex;
@@ -110,7 +117,11 @@ svg {
     }
     .discount-price {
         position: relative;
-        top: 8px;
-        left: -57px;
+        top: 7px;
+        left: -77px;
+    }
+    .purchase-price {
+        position: relative;
+        left: -35px;
     }
 }
